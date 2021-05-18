@@ -1,9 +1,9 @@
 <template>
     <div class="nav">
-        <nuxt-link to="/" class="brand">Real World Event</nuxt-link>
+        <nuxt-link to="/create" class="brand">Real World Event</nuxt-link>
         <nav>
-            <nuxt-link to="/">list</nuxt-link>&nbsp;|
-            <nuxt-link to="/create">Create</nuxt-link>
+            <nuxt-link to="/create">list</nuxt-link>&nbsp;|
+            <nuxt-link to="/create/create">Create</nuxt-link>
         </nav>
     </div>
 </template>
@@ -16,23 +16,23 @@
       color: #39b982;
       text-decoration: none;
     }
-    .nav {
+.nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       height: 60px;
     }
-    .nav .nav-item {
+.nav .nav-item {
       box-sizing: border-box;
       margin: 0 5px;
       color: rgba(0, 0, 0, 0.5);
       text-decoration: none;
     }
-    .nav .nav-item.router-link-exact-active {
+.nav .nav-item.router-link-exact-active {
       color: #39b982;
       border-bottom: solid 2px #39b982;
     }
-    .nav a {
+.nav a {
       display: inline-block;
     }
 </style>

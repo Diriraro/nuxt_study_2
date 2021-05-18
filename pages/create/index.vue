@@ -1,12 +1,15 @@
 <template>
-    <div id="app">
+    <div class=" ">
         <nav-bar />
-        <h3>nba player</h3>
-        <div>this page will show nba player infomation</div>
+        <h1>EVENTs</h1>
         <nuxt />
     </div>
 </template>
-
+<!-- <script>
+export default {
+    layout:'create'
+}
+</script> -->
 <script>
 import NavBar from "~/components/NavBar.vue";
 export default {

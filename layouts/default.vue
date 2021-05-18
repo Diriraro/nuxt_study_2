@@ -1,9 +1,9 @@
 <template>
   <div class=" ">
-    <nuxt-link to="/">homepage</nuxt-link>
-    <nuxt-link to="/player"> 1. player</nuxt-link>
-    <nuxt-link to="/team"> 2. team</nuxt-link>
-    <nuxt-link to="/rank"> 3. rank</nuxt-link>
+    <nuxt-link to="/">homepage</nuxt-link><br>
+    <nuxt-link to="/player"> 1. player</nuxt-link><br>
+    <nuxt-link to="/team"> 2. team</nuxt-link><br>
+    <nuxt-link to="/rank"> 3. rank</nuxt-link><br>
     <Nuxt />
   </div>
 </template>

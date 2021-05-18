@@ -9,6 +9,6 @@
 <script>
 export default {
     props: ['error'],
-    layout: 'blog'
+    layout: 'team'
 }
 </script>
